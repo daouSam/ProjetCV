@@ -1,0 +1,97 @@
+#bob {
+	background-color: #F0F8FF;
+	margin-left: 10%;
+	width: 100%;
+	height: 50%;
+	padding: 3%;
+	width: 1000px;
+	border: 1px black inset;
+}
+#photocv {
+	position: relative;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-top: 2px;
+	width: 120px;
+	height: 120px;
+	border-radius: 59px;
+	border: 1px black inset;
+}
+#photocv1 {
+	width: =300px;
+	height: 400px;
+}
+#princol {
+	display: flex;
+	flex-direction: column;
+}
+.sectionflex{
+	padding-left: 8px;
+	font-family: cursive;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	background: blanchedalmond;
+
+}
+
+h3 {
+	text-decoration: unset;
+
+}
+h3 #title1 {
+
+	padding-top: -4px;
+
+}
+#titlecv {
+	display: inline-flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+	text-align: center;
+	background-color: #F7DFFF;
+	height: 150px;
+	width: 100%;
+	border: 1px #F0FFFF inset;
+	font-size: 20px;
+	padding-top: -3px;
+	border-radius: 3px;
+}
+#bouton2{
+	background-color: #F7DFFF;
+}
+#bouton1{
+	background-color: #D7DFFF;
+}
+
+      #bouton1, #bouton2 {
+         border: 0;
+	    line-height: 2.5;
+	    padding: 0 20px;
+	    font-size: 1rem;
+	    text-align: center;
+	    color: #fff;
+	    text-shadow: 1px 1px 1px #000;
+	    border-radius: 10px;
+	    background-image: linear-gradient(to top left,
+	                                      rgba(0, 0, 0, .2),
+	                                      rgba(0, 0, 0, .2) 30%,
+	                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+      }
+      #bouton1 {
+      	float: left;
+      }
+      #bouton3 {
+      	float: right;
+      	margin-right: 400px;
+      }
+      section {
+      	background-color: #F0F8FF;
+      }
+      #groupboutton {
+      	margin-top: 20px;
+      }
+      
+      

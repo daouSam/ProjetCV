@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daou Samba</title>
+	<link rel="stylesheet" type="text/css" href="stylecv.css">
+	<script type="text/javascript">
+		function	cvclick(){
+			var monImgGran = document.getElementById("photocv");
+			if (photocv && photocv.style.width =="120px") {
+				photocv.style.height = '400px';
+				photocv.style.width = '300px';
+				photocv.style.border_radius ='2px';
+			}else{
+				photocv.style.height = '120px';
+				photocv.style.width = '120px';
+			}
+		}
+		
+		function cvclick1(){
+			var bouton3 = document.getElementById('bouton3');
+			  if(bouton3.display = "none"){
+			  	bouton3.style.display = "block";
+			    
+			  } else {
+			    bouton3.style.display = "none";
+			  }
+		};
+	</script>
+</head>
+<body>
+	<div id="bob">
+		<div id="titlecv">
+			<img id="photocv" src="IMG_3689.jpeg" alt="IMG_3689" onclick="cvclick()"/>
+		</div>
+	    <div id="princol">
+	    	<hr>
+		<section class="sectionflex">
+			<h3>Mon expérience</h3>
+			<p>Je sais faire le devellopement les developpement :</p>
+			<ul id="sect">
+				<li>Developpement Bureautique</li>
+				<li>Developpement Mobile</li>
+				<li>Developpement Web</li>
+			</ul>
+		</section>
+		<hr>
+		<section class="sectionflex">
+			<h3>Mes compétences</h3>
+			<p>Je suis ingenieur en informatique, au fait pour pouvoir avoir beaucoup </p>
+			<p>Il faut ecrire plein de truc danc ton cv </p>
+			<p>Mon très récent compétences</p>
+		</section>
+		<hr>
+		<section class="sectionflex">
+			<h3>Ma formation</h3>
+			<p>Dans mon parcour j'ai eu des diplome comme</p>
+			<ul>
+				<li>Diplome d'Etude Fondamentale</li>
+				<li>Baccalaureat</li>
+				<li>Licence Informatique</li>
+			</ul>
+		</section>
+		<div id="groupboutton">
+			<input id="bouton1" type="button" name="" value="Voici mon cv" onclick="cvclick1()">
+			<div id="bouton3" style="display: none;">
+				<input id="bouton2" type="button" name="" value="Telecharger cv" >
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
